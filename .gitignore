@@ -1,10 +1,68 @@
-# Python-generated files
+# Virtual environments (created by uv)
+.venv/
+venv/
+ENV/
+
+# Python bytecode & caches
 __pycache__/
-*.py[oc]
+*.py[cod]
+*$py.class
+.Python
+
+# Build & distribution artifacts
 build/
 dist/
-wheels/
-*.egg-info
+*.egg-info/
+.eggs/
+*.egg
 
-# Virtual environments
-.venv
+# PyTorch model weights & checkpoints
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+*.onnx
+checkpoints/
+models/
+weights/
+
+# Datasets & large data files
+data/
+datasets/
+*.csv
+*.parquet
+*.h5
+*.hdf5
+*.tfrecord
+*.lmdb
+
+# Experiment tracking & training logs
+runs/
+logs/
+wandb/
+mlruns/
+lightning_logs/
+.neptune/
+*.tfevents*
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Testing, linting & type-checking caches
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Local environment variables & secrets
+.env
+.env.*
+!.env.example
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
