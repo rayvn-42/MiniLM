@@ -99,15 +99,11 @@ name = "hdir-ai"
 version = "0.1.0"
 source = { editable = "." }
 dependencies = [
-    { name = "torch" },
     { name = "torchvision" },
 ]
 
 [package.metadata]
-requires-dist = [
-    { name = "torch", specifier = ">=2.15.0" },
-    { name = "torchvision", specifier = ">=0.29.2" },
-]
+requires-dist = [{ name = "torchvision", specifier = ">=0.29.2" }]
 
 [[package]]
 name = "jinja2"

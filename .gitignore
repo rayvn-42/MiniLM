@@ -55,6 +55,7 @@ lightning_logs/
 .mypy_cache/
 .coverage
 htmlcov/
+step*_test.py
 
 # Local environment variables & secrets
 .env
