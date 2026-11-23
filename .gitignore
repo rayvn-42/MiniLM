@@ -37,6 +37,9 @@ datasets/
 *.tfrecord
 *.lmdb
 
+# Backup Files
+*.bak
+
 # Experiment tracking & training logs
 runs/
 logs/
